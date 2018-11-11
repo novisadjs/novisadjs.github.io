@@ -1,4 +1,4 @@
-# novisad-js.github.io
+# novisadjs.github.io
 
 Novi Sad JS's secret sauce repo
 
