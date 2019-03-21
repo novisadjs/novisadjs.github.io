@@ -117,6 +117,10 @@ ul li {
   transform: scale(1.5) rotate(9deg);
 }
 
+#about .description {
+  text-align: left;
+}
+
 .sponsors {
   display: flex;
   flex-direction: column;
@@ -124,11 +128,7 @@ ul li {
   align-items: center;
 }
 
-.sponsor {
-  max-width: 20rem;
-}
-
 .sponsor img {
-  max-width: 20rem;
   max-height: 6rem;
+  max-width: 20rem;
 }
