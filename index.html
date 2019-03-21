@@ -1,95 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
 
-  <meta name="description" content="Novi Sad JavaScript community">
-  <meta name="keywords" content="JavaScript, Novi Sad, jQuery, React, Vue.js, Angular">
-  <meta name="author" content="NS JS">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#FFF200">
+    <meta name="description" content="Novi Sad JavaScript community" />
+    <meta
+      name="keywords"
+      content="JavaScript, Novi Sad, jQuery, React, Vue.js, Angular"
+    />
+    <meta name="author" content="NS JS" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#FFF200" />
 
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Novi Sad JS">
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Novi Sad JS" />
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@novisadjs">
-  <meta name="twitter:creator" content="@novisadjs">
-  <meta name="twitter:url" property="og:url" content="https://novisadjs.github.io">
-  <meta name="twitter:image:width" content="941">
-  <meta name="twitter:image:height" content="921">
-  <meta name="twitter:image" property="og:image" content="https://novisadjs.github.io/logo.png">
-  <meta name="twitter:title" property="og:title" content="Novi Sad JS">
-  <meta name="twitter:description" property="og:description" content="Novi Sad JS community">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@novisadjs" />
+    <meta name="twitter:creator" content="@novisadjs" />
+    <meta
+      name="twitter:url"
+      property="og:url"
+      content="https://novisadjs.github.io"
+    />
+    <meta name="twitter:image:width" content="941" />
+    <meta name="twitter:image:height" content="921" />
+    <meta
+      name="twitter:image"
+      property="og:image"
+      content="https://novisadjs.github.io/logo.png"
+    />
+    <meta name="twitter:title" property="og:title" content="Novi Sad JS" />
+    <meta
+      name="twitter:description"
+      property="og:description"
+      content="Novi Sad JS community"
+    />
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129093345-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-129093345-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag('config', 'UA-129093345-1');
-  </script>
-  
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-  <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="stylesheet" href="styles.css">
-  
-  <title>Novi Sad JS</title>
+      gtag("config", "UA-129093345-1");
+    </script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:500,900"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Novi Sad JS</title>
   </head>
-  
+
   <body>
-    <a href="http://meetup.com/novisadjs">
-      <img id="logo" alt="NSJS logo" src="logo.png">
-    </a>
-  
-    <p id="headline"><a href="https://en.wikipedia.org/wiki/Novi_Sad">Novi Sad</a> JavaScript community</p>
-    <p id="description">
-      NSJS hosts regular meetups, workshops and events on a variety of different JavaScript topics.
-    </p>
-  
-    <ul>
-      <li>
-        <a href="https://facebook.com/novisadjs">
-          <img alt="Facebook" src="img/facebook.png">
-        </a>
-      </li>
-      <li>
-        <a href="https://twitter.com/novisadjs">
-          <img alt="Twitter" src="img/twitter.png">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/company/novisadjs">
-          <img alt="LinkedIn" src="img/linkedin.png">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/novisadjs">
-          <img alt="Instagram" src="img/instagram.png">
-        </a>
-      </li>
-      <li>
-        <a href="http://meetup.com/novisadjs">
-          <img alt="Meetup" src="img/meetup.png">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UCcZuODV9yJcQ7gCKIjwK-lg">
-          <img alt="YouTube" src="img/youtube.png">
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/novisadjs">
-          <img alt="GitHub" src="img/github.png">
-        </a>
-      </li>
-      <li>
-          <a href="https://goo.gl/sNtpgc">
-            <img alt="Slack" src="img/slack.png">
+    <nav class="navbar">
+      <ul class="navigation">
+        <li>
+          <a href="#about">
+            About
           </a>
-      </li>
-    </ul>
-</body>
+        </li>
+        <li>
+          <a href="#sponsors">
+            Sponsors
+          </a>
+        </li>
+        <li>
+          <a href="#jobs">
+            Jobs
+          </a>
+        </li>
+        <li>
+          <a href="https://novisadjs.typeform.com/to/MdmQHU">
+            CFP
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="section">
+      <a class="nsjs-logo-link" href="http://meetup.com/novisadjs">
+        <img id="logo" alt="NSJS logo" src="logo.png" />
+      </a>
+
+      <h1 id="headline">
+        <a href="https://en.wikipedia.org/wiki/Novi_Sad">Novi Sad</a> JavaScript
+        community
+      </h1>
+      <p id="description">
+        NSJS hosts regular meetups, workshops and events on a variety of
+        different JavaScript topics.
+      </p>
+
+      <ul class="social-media">
+        <li>
+          <a href="https://facebook.com/novisadjs">
+            <img alt="Facebook" src="img/facebook.png" />
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/novisadjs">
+            <img alt="Twitter" src="img/twitter.png" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/company/novisadjs">
+            <img alt="LinkedIn" src="img/linkedin.png" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/novisadjs">
+            <img alt="Instagram" src="img/instagram.png" />
+          </a>
+        </li>
+        <li>
+          <a href="http://meetup.com/novisadjs">
+            <img alt="Meetup" src="img/meetup.png" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCcZuODV9yJcQ7gCKIjwK-lg">
+            <img alt="YouTube" src="img/youtube.png" />
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/novisadjs">
+            <img alt="GitHub" src="img/github.png" />
+          </a>
+        </li>
+        <li>
+          <a href="https://goo.gl/sNtpgc">
+            <img alt="Slack" src="img/slack.png" />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section" id="about">
+      About
+    </div>
+
+    <div class="section" id="sponsors">
+      Coming soon!
+    </div>
+
+    <div class="section" id="jobs">
+      Coming soon!
+    </div>
+  </body>
 </html>

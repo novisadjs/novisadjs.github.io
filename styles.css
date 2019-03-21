@@ -4,58 +4,92 @@
 }
 
 html {
-  min-height: 100%;
   height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
+  height: 100%;
+  width: 100%;
+  background-color: #fff200;
+  font-family: "Raleway", sans-serif;
+  color: #1f1a51;
+}
+
+.section {
+  margin-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100%;
-  background-color: #FFF200;
-  font-family: 'Open Sans Condensed', sans-serif;
+  min-height: 100%;
+  min-width: 100%;
 }
 
 #logo {
-  height: 30rem;
+  min-height: 5rem;
+  max-height: 20rem;
+  max-width: 100%;
   transition: transform 0.125s cubic-bezier(0.5, 0, 0.25, 2);
 }
 
 #logo:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 #headline {
-  margin-top: 1rem;
+  margin-bottom: 1rem;
   font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  max-width: 20rem;
 }
 
 #description {
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-align: center;
+  max-width: 25rem;
+  font-weight: 100;
 }
 
 a {
   color: inherit;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-ul {
+.navbar {
+  position: fixed;
+  top: 0;
+  height: 5rem;
+  opacity: 0.9;
+  width: 100%;
+  background-color: #fff200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-media {
   margin-top: 3rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 ul li {
   display: flex;
-  align-items: center;  
+  align-items: center;
 }
 
 ul li:not(:first-child) {
