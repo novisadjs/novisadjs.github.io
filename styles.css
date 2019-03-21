@@ -59,6 +59,7 @@ a {
 }
 
 a:hover {
+  color: #43c7f4;
   text-decoration: underline;
 }
 
