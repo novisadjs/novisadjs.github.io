@@ -132,3 +132,7 @@ ul li {
   max-height: 6rem;
   max-width: 20rem;
 }
+
+#sponsors a {
+  color: #43c7f4;
+}
