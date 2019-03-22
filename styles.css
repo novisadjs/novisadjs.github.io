@@ -11,10 +11,11 @@ html {
 
 body {
   height: 100%;
-  width: 100%;
+  width: calc(100% - 0.8rem);
   background-color: #fff200;
   font-family: "Raleway", sans-serif;
   color: #1f1a51;
+  margin: 0 0.4rem;
 }
 
 .section {
@@ -71,7 +72,7 @@ a:hover {
   top: 0;
   height: 5rem;
   opacity: 0.9;
-  width: 100%;
+  width: calc(100% - 0.8rem);
   background-color: #fff200;
   display: flex;
   align-items: center;
@@ -100,8 +101,8 @@ ul li {
   align-items: center;
 }
 
-.social-media li:not(:first-child) {
-  margin-left: 0.5rem;
+.social-media li {
+  margin: 0 0.3rem;
 }
 
 .social-media li img {
@@ -130,7 +131,7 @@ ul li {
 
 .sponsor img {
   max-height: 6rem;
-  max-width: 20rem;
+  max-width: 15rem;
 }
 
 #sponsors a {
