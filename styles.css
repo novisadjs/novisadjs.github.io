@@ -50,6 +50,7 @@ body {
 .description {
   font-size: 1rem;
   text-align: center;
+  line-height: 1.5;
   max-width: 25rem;
   font-weight: 100;
   margin-bottom: 1rem;
@@ -77,6 +78,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 2;
 }
 
 .navigation {
