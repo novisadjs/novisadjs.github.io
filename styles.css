@@ -133,8 +133,9 @@ ul li {
 }
 
 .sponsor img {
-  max-height: 6rem;
+  max-height: 10rem;
   max-width: 15rem;
+  width: 100%;
 }
 
 #sponsors a {
