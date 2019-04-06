@@ -133,11 +133,28 @@ ul li {
 }
 
 .sponsor img {
-  max-height: 10rem;
-  max-width: 15rem;
-  width: 100%;
+  height: 10rem;
+  width: 15rem;
+  object-fit: contain;
+  object-position: center;
 }
 
-#sponsors a {
+.highlight-a a {
   color: #43c7f4;
+}
+
+.friends {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.friend img {
+  height: 10rem;
+  width: 15rem;
+  margin: 1rem 0;
+  object-fit: contain;
+  object-position: center;
 }
