@@ -87,8 +87,9 @@ a:hover {
   justify-content: center;
 }
 
-.navbar li:not(:first-child) {
-  margin-left: 0.5rem;
+.navbar li:not(:first-child):before {
+  content: ' ~ ';
+  white-space: pre;
 }
 
 .social-media {
@@ -118,10 +119,6 @@ ul li {
 
 .social-media li:nth-child(even) img:hover {
   transform: scale(1.5) rotate(9deg);
-}
-
-#about .description {
-  text-align: left;
 }
 
 .sponsors {
@@ -157,4 +154,32 @@ ul li {
   margin: 1rem 0;
   object-fit: contain;
   object-position: center;
+}
+
+h3 {
+  margin-bottom: 1rem;
+}
+
+
+footer {
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-content .social-media {
+  margin-top: 0rem;
+}
+
+.footer-content .description {
+  margin-top: 0rem;
+  margin-bottom: 0;
 }
