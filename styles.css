@@ -87,8 +87,9 @@ a:hover {
   justify-content: center;
 }
 
-.navbar li:not(:first-child) {
-  margin-left: 0.5rem;
+.navbar li:not(:first-child):before {
+  content: ' ~ ';
+  white-space: pre;
 }
 
 .social-media {
@@ -157,4 +158,28 @@ ul li {
 
 h3 {
   margin-bottom: 1rem;
+}
+
+
+footer {
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-content .social-media {
+  margin-top: 0rem;
+}
+
+.footer-content .description {
+  margin-top: 0rem;
+  margin-bottom: 0;
 }
