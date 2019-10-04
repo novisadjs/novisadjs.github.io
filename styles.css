@@ -120,10 +120,6 @@ ul li {
   transform: scale(1.5) rotate(9deg);
 }
 
-#about .description {
-  text-align: left;
-}
-
 .sponsors {
   display: flex;
   flex-direction: column;
@@ -157,4 +153,8 @@ ul li {
   margin: 1rem 0;
   object-fit: contain;
   object-position: center;
+}
+
+h3 {
+  margin-bottom: 1rem;
 }
