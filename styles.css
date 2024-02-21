@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+
+  --bg-color: #fffeee;
 }
 
 html {
@@ -12,7 +14,7 @@ html {
 body {
   height: 100%;
   width: calc(100% - 2rem);
-  background-color: #fff200;
+  background-color: var(--bg-color);
   font-family: "Raleway", sans-serif;
   font-display: swap;
   color: #1f1a51;
@@ -34,10 +36,12 @@ body {
   max-height: 20rem;
   max-width: 100%;
   transition: transform 0.125s cubic-bezier(0.5, 0, 0.25, 2);
+  border-radius: 100%;
+  padding-bottom: 1rem;
 }
 
 #logo:hover {
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 
 .headline {
@@ -67,7 +71,7 @@ a {
 a:hover {
   color: #43c7f4;
   text-decoration: underline;
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 
 .navbar {
@@ -76,7 +80,8 @@ a:hover {
   height: 5rem;
   opacity: 0.9;
   width: calc(100% - 2rem);
-  background-color: #fff200;
+  background-color: var(--bg-color);
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -90,7 +95,7 @@ a:hover {
 }
 
 .navbar li:not(:first-child):before {
-  content: ' ~ ';
+  content: " ~ ";
   white-space: pre;
 }
 
@@ -116,11 +121,11 @@ ul li {
 }
 
 .social-media li:nth-child(odd) img:hover {
-  transform: scale(1.5) rotate(-9deg);
+  transform: scale(1.2) rotate(-4deg);
 }
 
 .social-media li:nth-child(even) img:hover {
-  transform: scale(1.5) rotate(9deg);
+  transform: scale(1.2) rotate(4deg);
 }
 
 .sponsors {
@@ -161,7 +166,6 @@ ul li {
 h3 {
   margin-bottom: 1rem;
 }
-
 
 footer {
   height: 10rem;
